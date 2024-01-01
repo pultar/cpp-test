@@ -17,7 +17,7 @@ jobs:
     runs-on: ${{ matrix.runner_label }}
     strategy:
       matrix:
-        runner_label: ["self-hosted", "Linux", "Arm64", "Arm"]
+        runner_label: ["Arm64", "Arm"]
 
     steps:
     - uses: actions/checkout@v3
