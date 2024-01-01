@@ -14,7 +14,7 @@ env:
 
 jobs:
   build:
-    runs-on: ["self-hosted", "Linux", ${{ matrix.runner_label }}]
+    runs-on: Linux
     strategy:
       matrix:
         runner_label: ["Arm64", "Arm"]
